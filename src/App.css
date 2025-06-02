@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+.app {
+  text-align: center;
+  background-color: #141414;
+  color: white;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.filter input,
+.add-movie-form input {
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+.add-movie-form button {
+  padding: 0.5rem 1rem;
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.movie-details {
+  text-align: center;
+  padding: 2rem;
+  color: white;
+}
+.movie-details button {
+  padding: 10px 20px;
+  background: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
